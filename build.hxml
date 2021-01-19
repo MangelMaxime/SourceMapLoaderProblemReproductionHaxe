@@ -1,0 +1,14 @@
+-lib hxnodejs:10.0.0
+-lib js-kit:git:https://github.com/clemos/haxe-js-kit.git#b011c745161aa83da0e30254dd00ecd9f95492fa
+
+-dce std
+
+-cp haxe
+
+-D js-es5
+-D analyzer-optimize
+-D shallow-expose
+
+App
+
+-js temp/haxe/app.js
