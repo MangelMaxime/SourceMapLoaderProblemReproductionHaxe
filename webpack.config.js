@@ -18,7 +18,7 @@ module.exports = {
     ],
     watchOptions: {
         ignored: [
-            "./haxe/**/*.hx"
+            "haxe/**/*.hx"
         ]
     },
     module: {
